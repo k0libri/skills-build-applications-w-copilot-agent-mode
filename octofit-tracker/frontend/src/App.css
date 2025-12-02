@@ -1,0 +1,81 @@
+
+body {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+  color: #22223b;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #22223b 0%, #4a4e69 100%);
+  box-shadow: 0 2px 8px rgba(34,34,59,0.1);
+}
+.navbar-brand, .nav-link {
+  color: #f2e9e4 !important;
+  font-weight: 500;
+}
+.nav-link.active, .nav-link:hover {
+  color: #9a8c98 !important;
+}
+
+h2, .display-6 {
+  color: #4a4e69;
+  font-weight: 700;
+}
+
+.table {
+  background: #f2e9e4;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.table th {
+  background: #4a4e69 !important;
+  color: #f2e9e4 !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e9ecef;
+}
+.table-hover tbody tr:hover {
+  background-color: #c9ada7;
+  color: #22223b;
+}
+
+.btn, .btn-primary {
+  background: #9a8c98;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: #4a4e69;
+  color: #f2e9e4;
+}
+
+a, .App-link {
+  color: #4a4e69;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #9a8c98;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.08);
+  margin-bottom: 2rem;
+}
+
+/* Logo styling */
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Favicon is handled by public/favicon.ico */
